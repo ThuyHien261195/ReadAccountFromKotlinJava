@@ -9,29 +9,29 @@
     tools:context="com.example.thuyhien.readcontentproviderapplication.MainActivity">
 
     <TextView
+        android:id="@+id/tvUserTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="User:"
-        android:id="@+id/tvUserTitle"
-        android:textSize="18sp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvUser"
-        android:textSize="18sp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pass:"
-        android:id="@+id/tvPassTitle"
         android:textSize="18sp" />
 
     <TextView
+        android:id="@+id/tvUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvPassTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pass:"
+        android:textSize="18sp" />
+
+    <TextView
         android:id="@+id/tvPass"
-        android:textSize="18sp"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
 
 </LinearLayout>
